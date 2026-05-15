@@ -1,39 +1,110 @@
-# 【Skill 创作】全自动项目文档生成器，一键产出全套标准项目文档
-## 1、Skill简介
-这是一款**项目代码全自动文档生成器**Skill，可自动解析项目代码结构与业务逻辑，一键批量生成需求规格、概要设计、数据库设计、API文档等全套标准化文档，适配开发、运维、项目交付人员快速补齐项目资料、规范文档归档使用。
+# 项目文档生成器 / Project Doc Generator
 
-## 2、使用场景
-日常开发中经常遇到新项目缺全套文档、老项目无留存资料、交付前临时补写各类设计文档的问题；手动逐篇写需求、设计、库表、API、部署手册耗时费力，格式不统一、版本混乱难追溯。
-有了这个Skill后，只需传入项目代码/项目目录，就能自动按规范生成整套文档、自动生成专属版本号、附带变更日志，省去手动撰稿、排版、版本整理的全部重复工作。
+<p align="center">
+  <b>中文</b> &nbsp;|&nbsp;
+  <a href="doc/en/README.md">English</a>
+</p>
 
-## 3、创作过程
-1. 核心定位设定：触发关键词为**生成项目文档、形成项目文档**，适配新项目搭建、老项目补档、项目交付归档三大核心场景。
-2. 逻辑流程搭建：先解析项目目录与核心代码，识别架构、领域模型、业务逻辑；再自动获取Git版本信息或本地时间戳，按固定规则生成标准化版本号。
-3. 文档体系配置：预设7大标准文档模板，包含需求规格、概要设计、详细设计、数据库设计、API文档、测试计划、部署&用户手册。
-4. 规范标准化：统一文档头部格式（项目名/作者/日期/版本）、固定变更日志表格模板，自动生成版本历史与变更记录，支持版本管理追溯。
-5. 目录规则配置：自动在项目根目录创建`Doc/项目名`专属归档目录，已有文档可自动参考兼容。
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-blue.svg" alt="License: GPLv3"></a>
+  <img src="https://img.shields.io/badge/version-v1.26.515.5-blue.svg" alt="Version: v1.26.515.5">
+  <img src="https://img.shields.io/badge/author-李荣起_(Li_Rongqi)-orange.svg" alt="Author">
+</p>
 
-## 4、使用步骤
-1. 调用该Skill，输入指令：**帮我生成项目文档**/**形成项目文档**；
-2. 上传项目代码文件或告知项目目录结构；
-3. Skill自动解析代码、获取Git/本地时间版本信息；
-4. 自动创建专属文档目录，依次生成7套标准文档；
-5. 输出带版本号、变更日志的完整文档套件，直接可落地使用。
+---
 
-## 5、效果展示
-（可配图：Skill配置工作流截图、生成后的完整Doc目录结构截图、单篇文档头部版本&变更日志样式截图、全套7份文档列表展示）
-使用前：手动编写全套项目文档需大半天，格式杂乱无版本管理；
-使用后：1分钟自动生成全套标准化文档，版本号自动编排、带变更日志，可直接用于项目交付、归档、交接。
+> **中文**：自动解析项目代码结构与业务逻辑，一键批量生成需求规格、概要设计、详细设计、数据库设计、API 文档、测试计划、部署手册等全套标准化项目文档。
 
-## 6、Skill 链接
-（此处粘贴你的Skill分享链接，如有文档模板仓库、使用说明文档可一并附上）
+> **English**: Automatically analyze project code structure and business logic, then generate a complete suite of standardized project documents — requirements specification, architecture design, detailed design, database design, API docs, test plan, and deployment guide — all in one click.
 
-## 7、总结与思考
-### 效率提升
-彻底解放开发人员文档撰写工作，从手动半天撰稿压缩至分钟级自动生成，文档格式统一、规范专业，大幅提升项目交付与资料归档效率。
-### 最满意的地方
-内置完整软件工程标准文档体系，自动智能解析代码生成内容，版本号规则严谨、自带变更日志，无需手动排版和版本维护，开箱即用。
-### 后续优化方向
-后续计划支持更多技术栈代码深度解析、新增导出Word/PDF格式、支持自定义文档模板和企业专属页眉页脚。
-### 体验建议
-欢迎开发、项目管理、运维同学体验使用，可反馈需要新增的文档类型、自定义版本规则，后续持续迭代优化。
+---
+
+## 📖 文档导航 / Documentation
+
+| 语言 / Language | 链接 / Link |
+|:---:|:---|
+| 🇨🇳 中文文档 | [doc/cn/README.md](doc/cn/README.md) |
+| 🇺🇸 English Docs | [doc/en/README.md](doc/en/README.md) |
+
+---
+
+## 🚀 快速开始 / Quick Start
+
+<details open>
+<summary><b>中文</b></summary>
+
+1. 在对话中上传项目代码或告知项目目录路径
+2. 输入指令：**"形成项目文档"** 或 **"生成项目文档"**
+3. Skill 自动分析代码 → 获取版本信息 → 生成 7 套标准文档
+4. 所有文档统一输出至 `Doc/<项目名>/` 目录
+
+</details>
+
+<details>
+<summary><b>English</b></summary>
+
+1. Upload your project code or provide the project directory path in the conversation
+2. Enter the command: **"Generate project documents"** or **"Create project documents"**
+3. The Skill auto-analyzes code → fetches version info → generates 7 standard documents
+4. All documents are output to the `Doc/<project-name>/` directory
+
+</details>
+
+---
+
+## ✨ 核心特性 / Feature Highlights
+
+| 特性 Feature | 说明 Description |
+|:---|:---|
+| 🧠 智能代码分析 / Intelligent Code Analysis | 自动识别项目目录结构、领域模型、业务逻辑与设计模式 / Auto-identifies project structure, domain models, business logic, and design patterns |
+| 📄 7 套标准文档 / 7 Standard Documents | 覆盖需求 → 设计 → 数据库 → API → 测试 → 部署全生命周期 / Covers the full lifecycle from requirements through deployment |
+| 🔢 自动版本管理 / Auto Versioning | 基于 Git 提交次数或时间戳生成规范版本号 / Generates standardized version numbers based on Git commit count or timestamp |
+| 📝 内置变更日志 / Built-in Changelog | 每份文档自动附带版本历史与变更记录 / Every document includes version history and change logs |
+| 📁 自动归档目录 / Auto Archive Directory | 一键输出至 `Doc/` 专属目录，结构清晰 / One-click output to a dedicated `Doc/` directory with clear structure |
+
+---
+
+## 📂 文档产出清单 / Generated Document List
+
+| # | 文档 / Document | 内容概要 / Content Summary |
+|:---:|:---|:---|
+| 01 | 需求规格说明书 / Requirements Specification | 功能概述、功能需求、业务规则、非功能需求 |
+| 02 | 概要设计 / System Overview Design | 系统架构、模块划分、类图、核心流程 |
+| 03 | 详细设计 / Detailed Design | 方法算法流程、分支逻辑、关键实现细节 |
+| 04 | 数据库设计 / Database Design | 数据表结构、字段定义、表间关系、索引 |
+| 05 | API 文档 / API Documentation | 接口清单、入参出参、调用示例、异常场景 |
+| 06 | 测试计划 / Test Plan | 单元测试用例、边界条件、并发测试 |
+| 07 | 部署手册与用户手册 / Deployment & User Manual | 环境要求、配置项、部署步骤、操作指南、FAQ |
+
+---
+
+## 📁 项目结构 / Project Structure
+
+```
+project-doc-generator/
+├── README.md                   # 项目导航首页 (你在这里)
+├── SKILL.md                    # Skill 工作流与规则定义
+├── LICENSE                     # GNU GPLv3
+├── doc/
+│   ├── cn/README.md            # 中文完整文档
+│   └── en/README.md            # English full documentation
+└── references/
+    ├── cn/
+    │   ├── document-templates.md
+    │   └── git-version-info.md
+    └── en/
+        ├── document-templates.md
+        └── git-version-info.md
+```
+
+---
+
+## 👤 作者 / Author
+
+**李荣起 (Li Rongqi)**
+
+---
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-blue.svg" alt="License: GPLv3"></a>
+</p>

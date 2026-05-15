@@ -85,7 +85,41 @@ e4f5g6h|2026-05-08|张三|修复订单查询bug
 i7j8k9l|2026-05-07|李四|优化数据库查询性能
 ```
 
-### 2.3 其他常用命令
+### 2.3 获取 Git 提交作者
+
+**用途**：当无法获取当前系统用户时，从目标项目的 Git 记录中提取作者名作为文档作者。
+
+**命令：**
+```bash
+git log -1 --format=%an
+```
+
+**参数说明：**
+- `log -1` - 仅获取最近一条提交记录
+- `--format=%an` - 只输出作者姓名（author name）
+
+**输出示例：**
+```
+张三
+```
+
+**获取提交者（committer）名称：**
+```bash
+git log -1 --format=%cn
+```
+
+**获取作者 + 提交者两者的完整信息：**
+```bash
+git log -1 --pretty=format:"作者(Author): %an <%ae>%n提交者(Committer): %cn <%ce>"
+```
+
+**输出示例：**
+```
+作者(Author): 张三 <zhangsan@example.com>
+提交者(Committer): 李四 <lisi@example.com>
+```
+
+### 2.4 其他常用命令
 
 **获取当前分支名称：**
 ```bash
