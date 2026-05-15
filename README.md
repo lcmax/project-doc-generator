@@ -17,7 +17,10 @@
 
 > **English**: Automatically analyze project code structure and business logic, then generate a complete suite of standardized project documents — requirements specification, architecture design, detailed design, database design, API docs, test plan, and deployment guide — all in one click.
 
+> 一切皆可Skill/SOLO技能创作赛 | [https://forum.trae.cn/t/topic/16860](https://forum.trae.cn/t/topic/17874)
 ---
+
+
 
 ## 📖 文档导航 / Documentation
 
