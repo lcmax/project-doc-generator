@@ -23,8 +23,8 @@
 
 | 语言 / Language | 链接 / Link |
 |:---:|:---|
-| 🇨🇳 中文文档 | [Doc/cn/README.md](Doc/cn/README.md) |
-| 🇺🇸 English Docs | [Doc/en/README.md](Doc/en/README.md) |
+| 🇨🇳 中文文档 | [./Doc/cn/README.md](Doc/cn/README.md) |
+| 🇺🇸 English Docs | [./Doc/en/README.md](Doc/en/README.md) |
 
 ---
 
