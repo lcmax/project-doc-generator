@@ -23,7 +23,7 @@
 
 | 语言 / Language | 链接 / Link |
 |:---:|:---|
-| 🇨🇳 中文文档 | [./Doc/cn/README.md](Doc/cn/README.md) |
+| 🇨🇳 中文文档 | [./Doc/cn/README.md]([Doc/cn/README.md](https://github.com/lcmax/project-doc-generator/blob/main/Doc/en/README.md) |
 | 🇺🇸 English Docs | [./Doc/en/README.md](Doc/en/README.md) |
 
 ---
