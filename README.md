@@ -8,7 +8,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-blue.svg" alt="License: GPLv3"></a>
   <img src="https://img.shields.io/badge/version-v1.26.515.5-blue.svg" alt="Version: v1.26.515.5">
-  <img src="https://img.shields.io/badge/author-李荣起_(Li_Rongqi)-orange.svg" alt="Author">
+  <img src="https://img.shields.io/badge/author-荣起_(Rongqi)-orange.svg" alt="Author">
 </p>
 
 ---
@@ -17,14 +17,20 @@
 
 > **English**: Automatically analyze project code structure and business logic, then generate a complete suite of standardized project documents — requirements specification, architecture design, detailed design, database design, API docs, test plan, and deployment guide — all in one click.
 
+> **一切皆可Skill/SOLO技能创作赛** 参选作品 欢迎投票 | [https://forum.trae.cn/t/topic/16860](https://forum.trae.cn/t/topic/17874)
+
+> **All Can Be Skill · Solo Creation Contest Entries | Welcome to Vote**
+
 ---
+
+
 
 ## 📖 文档导航 / Documentation
 
 | 语言 / Language | 链接 / Link |
 |:---:|:---|
-| 🇨🇳 中文文档 | [doc/cn/README.md](doc/cn/README.md) |
-| 🇺🇸 English Docs | [doc/en/README.md](doc/en/README.md) |
+| 🇨🇳 中文文档 | [./Doc/cn/README.md](https://github.com/lcmax/project-doc-generator/blob/main/Doc/cn/README.md) |
+| 🇺🇸 English Docs | [./Doc/en/README.md](https://github.com/lcmax/project-doc-generator/blob/main/Doc/en/README.md) |
 
 ---
 
@@ -101,7 +107,7 @@ project-doc-generator/
 
 ## 👤 作者 / Author
 
-**李荣起 (Li Rongqi)**
+**荣起 (Rongqi)**
 
 ---
 
