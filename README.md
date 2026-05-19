@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-blue.svg" alt="License: GPLv3"></a>
-  <img src="https://img.shields.io/badge/version-v1.26.515.5-blue.svg" alt="Version: v1.26.515.5">
+  <img src="https://img.shields.io/badge/version-v1.26.519.11-blue.svg" alt="Version: v1.26.515.5">
   <img src="https://img.shields.io/badge/author-荣起_(Rongqi)-orange.svg" alt="Author">
 </p>
 
