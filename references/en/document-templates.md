@@ -6,6 +6,13 @@
 > 2. **Git Commit Author**: The latest commit author from the target project (`git log -1 --format=%an`)  
 > 3. **Leave Empty**: If neither can be obtained
 
+> **Version Diff Log**  
+> When historical document versions exist, the Skill automatically appends a diff log section at the end of each new document, recording changes from the previous version in the following format:  
+> - 🟢 **Added**: Content present in the new document but not in the old document  
+> - 🟡 **Modified**: Content present in both documents but with changes  
+> - 🔴 **Removed**: Content present in the old document but removed from the new document  
+> If there are no differences, it notes "No changes from previous version"; if the document is entirely new, it is marked as "New document".
+
 ## 01-Requirement Specification Template
 
 ```markdown
@@ -54,6 +61,19 @@
 ### 4.2 Security Requirements
 - Data security
 - Access control
+
+---
+
+## Version Diff (vOldVersion → vNewVersion)
+
+### 🟢 Added
+- [Content added compared to previous version]
+
+### 🟡 Modified
+- [Content modified compared to previous version]
+
+### 🔴 Removed
+- [Content removed compared to previous version]
 ```
 
 ## 02-Overview Design Template
@@ -99,6 +119,19 @@
 | Dependency | Version | Purpose |
 |------------|---------|---------|
 | Dependency A | X.X | Purpose description |
+
+---
+
+## Version Diff (vOldVersion → vNewVersion)
+
+### 🟢 Added
+- [Content added compared to previous version]
+
+### 🟡 Modified
+- [Content modified compared to previous version]
+
+### 🔴 Removed
+- [Content removed compared to previous version]
 ```
 
 ## 03-Detailed Design Template
@@ -276,6 +309,19 @@ Write-Host "Change log generated: $OutputFile"
 
 ### 3.1 Algorithm A
 [Algorithm description, pseudocode, time complexity]
+
+---
+
+## Version Diff (vOldVersion → vNewVersion)
+
+### 🟢 Added
+- [Content added compared to previous version]
+
+### 🟡 Modified
+- [Content modified compared to previous version]
+
+### 🔴 Removed
+- [Content removed compared to previous version]
 ```
 
 ## 04-Database Design Template
@@ -317,6 +363,19 @@ Table A → Table B → Table C
 | Table Name | Index Fields | Index Type | Description |
 |------------|-------------|------------|-------------|
 | Table A | field1, field2 | Composite index | Description |
+
+---
+
+## Version Diff (vOldVersion → vNewVersion)
+
+### 🟢 Added
+- [Content added compared to previous version]
+
+### 🟡 Modified
+- [Content modified compared to previous version]
+
+### 🔴 Removed
+- [Content removed compared to previous version]
 ```
 
 ## 05-API Documentation Template
@@ -370,6 +429,19 @@ public ReturnType MethodName(ParamType param)
 | Scenario | Result | Description |
 |----------|--------|-------------|
 | Scenario A | Result A | Description |
+
+---
+
+## Version Diff (vOldVersion → vNewVersion)
+
+### 🟢 Added
+- [Content added compared to previous version]
+
+### 🟡 Modified
+- [Content modified compared to previous version]
+
+### 🔴 Removed
+- [Content removed compared to previous version]
 ```
 
 ## 06-Test Plan Template
@@ -414,6 +486,19 @@ public ReturnType MethodName(ParamType param)
 
 ## 5. Test Data Preparation
 [Test data description]
+
+---
+
+## Version Diff (vOldVersion → vNewVersion)
+
+### 🟢 Added
+- [Content added compared to previous version]
+
+### 🟡 Modified
+- [Content modified compared to previous version]
+
+### 🔴 Removed
+- [Content removed compared to previous version]
 ```
 
 ## 07-Deployment & User Manual Template
@@ -472,4 +557,17 @@ public ReturnType MethodName(ParamType param)
 | Problem | Possible Cause | Solution |
 |---------|---------------|----------|
 | Problem A | Cause A | Solution A |
+
+---
+
+## Version Diff (vOldVersion → vNewVersion)
+
+### 🟢 Added
+- [Content added compared to previous version]
+
+### 🟡 Modified
+- [Content modified compared to previous version]
+
+### 🔴 Removed
+- [Content removed compared to previous version]
 ```
