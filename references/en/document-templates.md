@@ -13,6 +13,11 @@
 > - 🔴 **Removed**: Content present in the old document but removed from the new document  
 > If there are no differences, it notes "No changes from previous version"; if the document is entirely new, it is marked as "New document".
 
+> **DOCX Output Format**  
+> By default, documents are generated in Markdown (`.md`) format. When the user's prompt contains `docx`, `word`, or `.docx` (case-insensitive), MS Word (`.docx`) format documents will be generated instead.  
+> DOCX generation strategy: Content is first generated in Markdown, then converted to `.docx` via `pandoc`.  
+> If pandoc is not installed on the system, it falls back to Markdown format with a prompt to install: `winget install JohnMacFarlane.Pandoc`
+
 ## 01-Requirement Specification Template
 
 ```markdown

@@ -13,6 +13,11 @@
 > - 🔴 **删除**：旧文档中存在而新文档中已移除的内容  
 > 若新旧文档无差异，则注明"与上一版本无差异"；若为全新文档，则标记为"全新文档"。
 
+> **DOCX 输出格式（DOCX Output Format）**  
+> 默认生成 Markdown（`.md`）格式文档。当用户提示词包含 `docx`、`word` 或 `.docx`（不区分大小写）时，将生成 MS Word（`.docx`）格式文档。  
+> DOCX 生成策略：先按 Markdown 模板生成内容，再通过 `pandoc` 转换为 `.docx`。  
+> 若系统未安装 pandoc，将回退为 Markdown 格式，并提示安装：`winget install JohnMacFarlane.Pandoc`
+
 ## 01-需求规格.md 模板
 
 ```markdown
