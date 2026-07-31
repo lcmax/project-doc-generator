@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-blue.svg" alt="License: GPLv3"></a>
-  <img src="https://img.shields.io/badge/version-v1.26.519.11-blue.svg" alt="Version: v1.26.515.5">
+  <img src="https://img.shields.io/badge/version-v1.26.731.20-blue.svg" alt="Version: v1.26.731.20">
   <img src="https://img.shields.io/badge/author-荣起_(Rongqi)-orange.svg" alt="Author">
 </p>
 
@@ -41,8 +41,9 @@
 
 1. 在对话中上传项目代码或告知项目目录路径
 2. 输入指令：**"形成项目文档"** 或 **"生成项目文档"**
-3. Skill 自动分析代码 → 获取版本信息 → 生成 7 套标准文档
-4. 所有文档统一输出至 `Doc/<项目名>/` 目录
+3. Skill 自动分析代码 → 获取版本信息 → **交互式确认**（项目名/语言/范围/格式/作者）
+4. 按确认结果生成对应语言与范围的标准文档
+5. 所有文档统一输出至 `Doc/<项目名>/` 目录
 
 </details>
 
@@ -51,8 +52,9 @@
 
 1. Upload your project code or provide the project directory path in the conversation
 2. Enter the command: **"Generate project documents"** or **"Create project documents"**
-3. The Skill auto-analyzes code → fetches version info → generates 7 standard documents
-4. All documents are output to the `Doc/<project-name>/` directory
+3. The Skill auto-analyzes code → fetches version info → **interactive confirmation** (project name/language/scope/format/author)
+4. Generates standard documents for the confirmed language and scope
+5. All documents are output to the `Doc/<project-name>/` directory
 
 </details>
 
@@ -64,6 +66,8 @@
 |:---|:---|
 | 🧠 智能代码分析 / Intelligent Code Analysis | 自动识别项目目录结构、领域模型、业务逻辑与设计模式 / Auto-identifies project structure, domain models, business logic, and design patterns |
 | 📄 7 套标准文档 / 7 Standard Documents | 覆盖需求 → 设计 → 数据库 → API → 测试 → 部署全生命周期 / Covers the full lifecycle from requirements through deployment |
+| 🎯 交互式参数收集 / Interactive Parameter Collection | 生成前提问确认项目名/语言/范围/格式/作者，兼容 8 种 IDE 三级降级策略 / Pre-generation prompts for project name/language/scope/format/author, compatible with 8 IDEs via three-tier fallback |
+| 🌐 多语言按需生成 / On-demand Multilingual Generation | 支持仅中文/仅英文/双语，按需裁剪目录、归档与差异对比 / Supports Chinese-only/English-only/Bilingual, dynamically trimming directories, archiving and diff |
 | 🔢 自动版本管理 / Auto Versioning | 基于 Git 提交次数或时间戳生成规范版本号 / Generates standardized version numbers based on Git commit count or timestamp |
 | 📝 内置变更日志 / Built-in Changelog | 每份文档自动附带版本历史与变更记录 / Every document includes version history and change logs |
 | 📁 自动归档目录 / Auto Archive Directory | 一键输出至 `Doc/` 专属目录，结构清晰 / One-click output to a dedicated `Doc/` directory with clear structure |
