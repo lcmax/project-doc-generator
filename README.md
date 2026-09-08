@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-blue.svg" alt="License: GPLv3"></a>
-  <img src="https://img.shields.io/badge/version-v1.26.731.20-blue.svg" alt="Version: v1.26.731.20">
+  <img src="https://img.shields.io/badge/version-v1.26.908.24-blue.svg" alt="Version: v1.26.908.24">
   <img src="https://img.shields.io/badge/author-荣起_(Rongqi)-orange.svg" alt="Author">
 </p>
 
@@ -20,6 +20,18 @@
 ---
 
 
+
+## 🗓️ 版本更新记录 / Version History
+
+> 版本号规则：`v1.{yy}.{Mdd}.{提交次数}`（如 `v1.26.908.23` = 2026年9月8日，第 23 次提交）。记录每次提交版本的变更内容。
+
+| 版本 Version | 日期 Date | 变更内容 / Changes |
+|:---|:---|:---|
+| v1.26.908.24 | 2026-09-08 | 更新 README 版本徽章；新增「版本更新记录」并置于文档导航上方，记录提交版本的变更 |
+| v1.26.908.23 | 2026-09-08 | 扩展为 17 套全生命周期文档；中英双轨本地化（GB/T 8567 / IEEE·ISO）；新增三级分级范围选择；cn/en 模板、设计规格与测试用例更新 |
+| v1.26.731.20 | 2026-07-31 | 同步根目录 README；补充交互式多语言提问能力 |
+
+---
 
 ## 📖 文档导航 / Documentation
 
